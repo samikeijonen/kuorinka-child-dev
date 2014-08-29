@@ -1,0 +1,42 @@
+/**
+ * Theme Name: Kuorinka Child Dev
+ * Theme URI: https://foxnet-themes.fi/downloads/kuorinka
+ * Description: Dev child theme for Kuorinka theme
+ * Version: 1.0.0
+ * Author: Sami Keijonen
+ * Author URI: https://foxnet-themes.fi
+ * Text Domain: kuorinka-child-dev
+ * Domain Path: /languages/
+ * Tags: blue, white, light, one-column, two-columns, left-sidebar, right-sidebar, fluid-layout, responsive-layout, accessibility-ready, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+ * License: GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template: kuorinka
+ */
+ 
+/**
+ * Parent theme styles are loaded automatically. So there is no need to use @import rule.
+ *
+ * I have collected all the fonts, backgrounds, colors and borders at the bottom of Kuorinka theme's `style.css`.
+ * The things available to be overwritten are labeled as the "Child theme friendly zone".
+ * You can copy and use those as a starting point when creating your custom child theme.
+ *
+ */
+
+/* Change fonts to test editor styles and admin header page. */ 
+body,
+#site-description {
+	color: #474747;
+	font-family: 'Arimo', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6 {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica;
+	font-weight: 300;
+}

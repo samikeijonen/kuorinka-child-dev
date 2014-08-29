@@ -1,0 +1,54 @@
+# Copyright (C) 2014 Sami Keijonen
+# This file is distributed under the GNU General Public License v2.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kuorinka Child Dev 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/kuorinka-child-dev\n"
+"POT-Creation-Date: 2014-08-29 14:12:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.php:68
+msgid "Test header"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 	 * supported by Lato, translate this to 'off'. Do not translate
+#. 	 * into your own language.
+
+#: functions.php:117
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 	 * supported by Arimo, translate this to 'off'. Do not translate
+#. 	 * into your own language.
+
+#: functions.php:123
+msgctxt "Arimo font: on or off"
+msgid "on"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Kuorinka Child Dev"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://foxnet-themes.fi/downloads/kuorinka"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Dev child theme for Kuorinka theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sami Keijonen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://foxnet-themes.fi"
+msgstr ""
