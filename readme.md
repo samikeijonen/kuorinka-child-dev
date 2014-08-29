@@ -15,7 +15,7 @@ so you can keep accessibility-ready tag.
 
 All child themes should have a `/languages/theme-slug.pot` file. Even if your theme doesn't add new strings, the `style.css` headers should be translatable.
 
-If you're unfamiliar with this process, here are two tutorials for creating a POT file:
+If you're unfamiliar with this process, here are tutorials for creating a POT file:
 
 * [Creating pot files](https://foxnet-themes.fi/creating-pot-file-for-your-theme-or-plugin/)
 * [Language packs](http://ottopress.com/2013/language-packs-101-prepwork)
