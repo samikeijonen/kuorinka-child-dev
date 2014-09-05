@@ -118,15 +118,15 @@ function kuorinka_child_dev_fonts_url() {
 	 * supported by Arimo, translate this to 'off'. Do not translate
 	 * into your own language.
 	 */
-	$playfair_display = _x( 'on', 'Arimo font: on or off', 'kuorinka-child-dev' );
+	$arimo = _x( 'on', 'Arimo font: on or off', 'kuorinka-child-dev' );
 
-	if ( 'off' !== $lato || 'off' !== $playfair_display ) {
+	if ( 'off' !== $lato || 'off' !== $arimo ) {
 		$font_families = array();
 
 		if ( 'off' !== $lato )
 			$font_families[] = 'Lato:300,400,700,900,300italic,400italic,700italic,900italic';
 
-		if ( 'off' !== $playfair_display )
+		if ( 'off' !== $arimo )
 			$font_families[] = 'Arimo:400,700,400italic,700italic';
 
 		$query_args = array(
