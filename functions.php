@@ -7,7 +7,7 @@
  * @package    Kuorinka Child Dev
  * @author     Sami Keijonen <sami.keijonen@foxnet.fi>
  * @copyright  Copyright (c) 2014, Sami Keijonen
- * @link       https://foxnet-themes.fi/downloads/kuorinka
+ * @link       https://foxland.fi/downloads/kuorinka
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
@@ -87,16 +87,6 @@ function kuorinka_child_dev_scripts() {
 	
 }
 add_action( 'wp_enqueue_scripts', 'kuorinka_child_dev_scripts', 11 );
-
-/**
- * Enqueue theme fonts in admin header page.
- *
- * @since  1.0.0
- */
-function kuorinka_child_dev_custom_header_fonts() {
-	wp_enqueue_style( 'kuorinka-child-dev-fonts', kuorinka_child_dev_fonts_url(), array(), null );
-}
-add_action( 'admin_print_styles-appearance_page_custom-header', 'kuorinka_child_dev_custom_header_fonts' );
 
 /**
  * Return the Google font stylesheet URL
